@@ -13,3 +13,10 @@ class JiandanItem(scrapy.Item):
     image_urls = scrapy.Field()#图片的链接
     images = scrapy.Field()
 
+
+
+class ProxyItem(scrapy.Item):
+    ip = scrapy.Field()#ip
+    port = scrapy.Field()#端口
+
+
